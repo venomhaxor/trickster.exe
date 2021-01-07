@@ -2,7 +2,6 @@ import sys
 import requests
 import argparse
 
-from core.hq import hq
 from core.extractor import extractor
 from core.colors import white, green, end, red, yellow, run
 
