@@ -1,2 +1,0 @@
-# trickster.exe
-hehehe
