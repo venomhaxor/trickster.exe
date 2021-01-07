@@ -27,13 +27,6 @@ if sys.version_info < (3, 0):
     input = raw_input
 
 
-def banner():
-    print ('''%s
- _____                         ____
-| __  |___ ___ ___ ___  %s|\_/|%s |    \ ___ ___
-|    -| -_|  _| . |   | %s|. .|%s |  |  | . | . |
-|__|__|___|___|___|_|_| %s \_/ %s |____/|___|_  |
-                                        |___| v2.0%s''' % (white, red, white, red, white, red, white, end))
 
 
 def menu():
