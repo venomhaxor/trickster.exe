@@ -1,7 +1,6 @@
 import sys
 import requests
 import argparse
-import banner
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', help='target', dest='target')
@@ -45,7 +44,7 @@ def menu():
 
 def dog(choice, target):
     if not args.target:
-        banner()
+        
     if arged:
         hq(choice, target)
     else:
