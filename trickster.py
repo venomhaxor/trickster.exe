@@ -2,7 +2,6 @@ import sys
 import requests
 import argparse
 
-from core.colors import white, green, end, red, yellow, run
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', help='target', dest='target')
